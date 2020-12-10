@@ -1,0 +1,84 @@
+/*Login CSS*/
+.form-horizontal{
+    background-color: #fff;
+    font-family: 'Blinker', sans-serif;
+    text-align: center;
+    padding: 20px 10px 20px;
+    margin: 80px 0 0;
+    border: 5px solid #3b3759;
+    border-radius: 10px;
+}
+.form-horizontal .form-icon{
+    color: #fff;
+    background-color: #3b3759;
+    font-size: 60px;
+    line-height: 120px;
+    height: 120px;
+    width: 130px;
+    margin: -80px auto 20px;
+    border-radius: 50%;
+    box-shadow: 0 0 13px -5px #000;
+}
+.form-horizontal .form-group{ margin: 0 0 20px; }
+.form-horizontal label{
+    color: #cf8ea7;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+    padding: 0;
+    display: block;
+}
+.form-horizontal .form-control{
+    color: #555;
+    font-size: 16px;
+    height: 35px;
+    padding: 10px 8px 10px 5px;
+    border-radius: 5px;
+}
+.form-control::placeholder{ color: rgba(0,0,0,0.2); }
+.form-horizontal .form-control:focus{
+    box-shadow: none;
+    border: 1px solid #4c6e81;
+}
+.form-horizontal .btn{
+    color: #fff;
+    background-color: #3b3759;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+    width: 60%;
+    padding: 7px 10px;
+    margin: 0 auto 15px;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s;
+}
+.form-horizontal .btn:hover{ color: #cf8da7; }
+.form-horizontal .btn:after{
+    content: '';
+    background-color: #4c6e81;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 25px;
+    transform: translateY(-100%);
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    transition: all 0.2s;
+}
+/*.form-horizontal .btn:hover:after{ transform: translateY(0) scaleX(0.85); }*/
+.form-horizontal .forgot{
+    color: #cf8da7;
+    font-size: 14px;
+}
+.form-horizontal .forgot:hover{
+    color: #7aacb3;
+    text-decoration: none;
+}
+/*FIN Login CSS
